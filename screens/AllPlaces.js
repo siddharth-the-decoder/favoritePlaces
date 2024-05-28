@@ -1,4 +1,4 @@
-import PlacesList from "../components/places/PlacesList";
+import PlacesList from "../components/Places/PlacesList";
 
 function AllPlaces() {
   return <PlacesList />;
