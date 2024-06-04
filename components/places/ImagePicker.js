@@ -15,7 +15,7 @@ function ImagePicker() {
   useEffect(() => {
     console.log("Camera permission information:", cameraPermissionInformation);
   }, [cameraPermissionInformation]);
-
+  
   async function verifyPermissions() {
     if (cameraPermissionInformation.status === PermissionStatus.UNDETERMINED) {
       const permissionResponse = await requestPermission();
